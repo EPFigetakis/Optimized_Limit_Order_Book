@@ -73,3 +73,24 @@ struct PriceLevel
 
     }
 };
+
+void match_against_level(PriceLevel& level, Quantity& incoming_qty){
+
+    Order* current = level.head;
+
+    while (current && incoming_qty > 0)
+    {
+        Quantity fill_qty = std::min(incoming_qty, current->quantity);
+        
+        current->quantity -= fill_qty;
+        incoming_qty -= fill_qty;
+        level.total_volume -= fill_qty;
+
+
+        if (current -> quantity == 0){
+            Order* filled_order = current;
+            current = current->next;
+            level.remove(filled_order);
+        }
+    }
+}

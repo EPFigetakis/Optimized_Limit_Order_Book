@@ -1,0 +1,7 @@
+Notes explaining the functions from base.cpp
+
+This includes the structure setups, the doubly linked list, the push_back function, the remove function, and the match_against_level.
+
+
+The cpp file accomplishes, the setup and everything needed for the later market orders and limit orders while preserving the First In First Out. 
+DLLs are a big help in getting this done, also some extra parameters were added to the structs such as total volume, to avoid looping later!  
