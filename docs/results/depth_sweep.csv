@@ -1,0 +1,9 @@
+depth,impl,events,m_events_per_sec
+1000,lob::OrderBook,1000000,82.6194
+1000,std baseline,1000000,14.6739
+10000,lob::OrderBook,1000000,70.1730
+10000,std baseline,1000000,9.4245
+100000,lob::OrderBook,1000000,32.3126
+100000,std baseline,1000000,4.6171
+1000000,lob::OrderBook,1000000,9.6920
+1000000,std baseline,1000000,2.7668

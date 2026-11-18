@@ -1,0 +1,17 @@
+key,value
+cpu,"AMD Ryzen 5 7600X 6-Core Processor"
+compiler,"15.2.0"
+os,Windows (thread pinned to core 2, HIGH_PRIORITY_CLASS)
+flags,-O3 -DNDEBUG (no -march=native)
+tsc_ghz,4.6911
+timer_overhead_ns,10.0
+timer_granularity_ns,20.0
+seed,0x5eedc0de2024
+events,4000000
+throughput_reps,7
+price_range,10000
+pool_capacity_main,262144
+stream_adds_pct,60.0
+stream_cancels_pct,35.0
+stream_marketable_pct,5.0
+stream_max_resting,97937
